@@ -24,5 +24,13 @@ namespace github_alapok
         {
             InitializeComponent();
         }
+
+        List<int> lista = new List<int>();
+        public void Gomb_Click(object sender, RoutedEventArgs e)
+        {
+            int szam = Convert.ToInt32(Mezo.Text);
+            lista.Add(szam);
+            Mezo.Clear();
+        }
     }
 }

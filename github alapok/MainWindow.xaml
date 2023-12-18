@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="Mezo" HorizontalAlignment="Left" Margin="223,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164"/>
+        <Button x:Name="Gomb" Content="Szám felvétele" HorizontalAlignment="Left" Margin="450,81,0,0" VerticalAlignment="Top" Height="40" Width="100"/>
+        <Label Content="Ide kérem a számokat:" HorizontalAlignment="Left" Margin="95,83,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
