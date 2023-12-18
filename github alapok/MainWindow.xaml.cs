@@ -39,10 +39,10 @@ namespace github_alapok
             Listahelye.Text = lista;
         }
 
-        public void Legkisebb_Click(object sender, RoutedEventArgs e)
+        public void Legnagyobb_Click(object sender, RoutedEventArgs e)
         {
             Listahelye.Clear();
-            Listahelye.Text = lista.Min();
+            Listahelye.Text = lista.Max();
         }
     }
 }
