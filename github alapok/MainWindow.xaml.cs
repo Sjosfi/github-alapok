@@ -32,5 +32,11 @@ namespace github_alapok
             lista.Add(szam);
             Mezo.Clear();
         }
+
+        public void Kiiras_Click(object sender, RoutedEventArgs e)
+        {
+            Listahelye.Clear();
+            Listahelye.Text = lista;
+        }
     }
 }
