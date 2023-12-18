@@ -38,5 +38,11 @@ namespace github_alapok
             Listahelye.Clear();
             Listahelye.Text = lista;
         }
+
+        public void Legkisebb_Click(object sender, RoutedEventArgs e)
+        {
+            Listahelye.Clear();
+            Listahelye.Text = lista.Min();
+        }
     }
 }
